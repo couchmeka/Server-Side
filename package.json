@@ -4,8 +4,22 @@
   "description": "Server-Side part of our full stack application",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/couchmeka/Server-Side.git"
+  },
+  "bugs": {
+    "url": "https://github.com/couchmeka/Server-Side/issues"
+  },
+  "homepage": "https://github.com/couchmeka/Server-Side#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1",
+    "nodemon": "^2.0.21"
+  }
 }
